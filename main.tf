@@ -11,7 +11,7 @@ terraform {
     organization = "duff_stuff" 
 
     workspaces { 
-      name = "remote_state" 
+      name = "TerraformCI" 
     } 
   } 
 }
