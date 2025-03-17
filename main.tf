@@ -11,14 +11,14 @@ terraform {
     organization = "duff_stuff" 
 
     workspaces { 
-      name = "remote_state" 
+      name = "TerraformCI" 
     } 
   } 
 }
 
 provider "azurerm" {
     features {}
-    skip_provider_registration = true  
+     
 }
 resource "azurerm_resource_group" "rg" {
     location = "East US 2"
